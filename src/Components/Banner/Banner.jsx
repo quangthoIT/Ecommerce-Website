@@ -9,25 +9,25 @@ const Banner = () => {
       id: 1,
       title: "Best Furniture collection for your interior",
       subTitle: "Welcome to chair",
-      image: "/src/assets/Banner/Banner_Chair.png",
+      image: "/src/assets/Banners/Banner_Chair.png",
     },
     {
       id: 2,
       title: "Best Furniture collection for your interior",
       subTitle: "Welcome to cabinet",
-      image: "/src/assets/Banner/Banner_Cabinet.png",
+      image: "/src/assets/Banners/Banner_Cabinet.png",
     },
     {
       id: 3,
       title: "Best Furniture collection for your interior",
       subTitle: "Welcome to sofa",
-      image: "/src/assets/Banner/Banner_Sofa.png",
+      image: "/src/assets/Banners/Banner_Sofa.png",
     },
     {
       id: 4,
       title: "Best Furniture collection for your interior",
       subTitle: "Welcome to chairs isolated",
-      image: "/src/assets/Banner/Banner_Chair_Isolated.png",
+      image: "/src/assets/Banners/Banner_Chair_Isolated.png",
     },
   ];
 
