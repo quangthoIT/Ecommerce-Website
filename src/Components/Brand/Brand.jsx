@@ -35,7 +35,7 @@ const Brand = () => {
       <div className="grid grid-cols-7 items-center justify-center">
         {brands.map((brand) => (
           <div key={brand?.id} className="brand-item justify-center flex">
-            <img src={brand?.image} alt="brand" className="w-auto min-w-[130px]" />
+            <img src={brand?.image} alt="brand" className="w-auto" />
           </div>
         ))}
       </div>

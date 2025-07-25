@@ -22,9 +22,9 @@ const Home = () => {
       <div className="brand-component w-full h-[150px] mt-6 mb-6 flex items-center justify-center">
         <Brand />
       </div>
-
     </div>
   );
 };
 
 export default Home;
+// 46:00
