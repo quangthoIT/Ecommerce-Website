@@ -9,7 +9,7 @@ const Features = () => {
   const features = [
     {
       title: "Library Stool 1",
-      price: "$250",
+      price: "$200",
       image: "/src/assets/Features/product1.png",
     },
     {
@@ -22,15 +22,21 @@ const Features = () => {
     {
       title: "Library Stool 3",
       status: "New",
-      price: "$250",
+      price: "$200",
       image: "/src/assets/Features/product3.png",
     },
     {
       title: "Library Stool 4",
       status: "Sales",
-      price: "$250",
+      price: "$300",
       image: "/src/assets/Features/product4.png",
-      originalPrice: "$300",
+      originalPrice: "$350",
+    },
+    {
+      title: "Library Stool 5",
+      status: "New",
+      price: "$175",
+      image: "/src/assets/Features/product5.png",
     },
   ];
 
@@ -39,7 +45,7 @@ const Features = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll:1,
+    slidesToScroll: 1,
   };
 
   return (
