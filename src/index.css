@@ -32,7 +32,15 @@
   border-radius: 100%;
   z-index: -1;
 }
-.slick-dots {
+
+/* Buttons Slick Arrows Banner*/
+.slick-prev {
+  left: -55px !important;
+}
+.slick-next {
+  right: -45px !important;
+}
+.slider-banner-container > .slick-slider > .slick-dots {
   position: absolute;
   bottom: 45px !important;
   display: block;
@@ -42,17 +50,17 @@
   list-style: none;
   text-align: center;
 }
-.slick-prev:before,
+.slider-banner-container > .slick-slider > .slick-prev:before,
 .slick-next:before {
   font-family: "slick";
-  font-size: 40px !important;
+  font-size: 35px !important;
   line-height: 1;
   opacity: 0.75;
   color: #029fae !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.slick-dots li button:before {
+.slider-banner-container > .slick-slider > .slick-dots li button:before {
   font-family: "slick";
   font-size: 15px !important;
   line-height: 25px;
@@ -68,10 +76,54 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.slider-banner-container > .slick-slider > .slick-dots li button:before {
+  font-family: "slick";
+  font-size: 15px !important;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: #636270 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slider-banner-container
+  > .slick-slider
+  > .slick-dots
+  > li.slick-active
+  button:before {
+  color: #029fae !important;
+}
 
 /* Delivery Component */
 .delivery-component {
   margin-top: -3.5rem;
   position: relative;
   z-index: 5;
+}
+
+/* Buttons Slick Arrows Feature */
+.slider-feature-container > .slick-slider > .slick-dots {
+  position: absolute;
+  bottom: 45px !important;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.slider-feature-container > .slick-slider > .slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 35px !important;
+  line-height: 1;
+  opacity: 0.75;
+  color: #029fae !important;
+
 }

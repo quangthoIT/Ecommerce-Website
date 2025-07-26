@@ -146,7 +146,7 @@ const Navbar = () => {
             </nav>
           </div>
 
-          <div className="navbar-bottom-right flex items-center text-base font-inter font-normal capitalize">
+          <div className="navbar-bottom-right flex items-center text-sm font-inter font-normal capitalize">
             <p className="text-[#636270]">
               Contact: <span className="text-[#272343]">(+84) 123 456 789</span>
             </p>

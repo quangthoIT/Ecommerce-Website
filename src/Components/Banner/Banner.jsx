@@ -34,17 +34,20 @@ const Banner = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    speed: 1000,
+    autoplaySpeed: 4000,
+    cssEase: "linear"
   };
 
   return (
     <div className="lg:container">
-      <div className="slider-container w-full h-full">
+      <div className="slider-banner-container w-full h-full">
         <Slider {...settings}>
           {products?.map((product) => (
-            <div key={product?.id} className="banner-slide-items pl-10">
+            <div key={product?.id} className="banner-slide-items">
               {/* Banner Text */}
               <div className="banner-text">
                 <p className="text-base font-inter text-[#272343] uppercase font-normal">

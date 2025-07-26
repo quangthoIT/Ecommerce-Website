@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Banner from "../../Components/Banner/Banner";
 import Delivery from "../../Components/Delivery/Delivery";
 import Brand from "../../Components/Brand/Brand";
+import Features from "../../Components/Features/Features";
 
 const Home = () => {
   return (
@@ -21,6 +22,11 @@ const Home = () => {
       {/* Brand Component */}
       <div className="brand-component w-full h-[150px] mt-6 mb-6 flex items-center justify-center">
         <Brand />
+      </div>
+
+      {/* Features Component */}
+      <div className="features-component w-full flex items-center justify-center mb-[40px]">
+        <Features />
       </div>
     </div>
   );
