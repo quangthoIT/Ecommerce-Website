@@ -5,6 +5,7 @@ import Banner from "../../Components/Banner/Banner";
 import Delivery from "../../Components/Delivery/Delivery";
 import Brand from "../../Components/Brand/Brand";
 import Features from "../../Components/Features/Features";
+import Categories from "../../Components/Categories/Categories";
 
 const Home = () => {
   return (
@@ -27,6 +28,12 @@ const Home = () => {
       {/* Features Component */}
       <div className="features-component w-full flex items-center justify-center mb-[40px]">
         <Features />
+      </div>
+
+      {/* Categories Component */}
+      <div className="categories-component w-full flex items-center justify-center mb-[40px]">
+        {/* Placeholder for Categories component */}
+        <Categories />
       </div>
     </div>
   );

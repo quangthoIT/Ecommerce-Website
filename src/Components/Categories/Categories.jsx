@@ -1,0 +1,69 @@
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import SectionTitle from "../SectionTitle/SectionTitle";
+import { ShoppingCart } from "lucide-react";
+
+const Categories = () => {
+  const categories = [
+    {
+      title: "Wing Chair",
+      products: "173 Products",
+      image: "/src/assets/Categories/categories1.png",
+    },
+    {
+      title: "Wooden Chair",
+      products: "148 Products",
+      image: "/src/assets/Categories/categories2.png",
+    },
+    {
+      title: "Desk Chair",
+      products: "296 Products",
+      image: "/src/assets/Categories/categories3.png",
+    },
+  ];
+
+  const settings = {
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "50px",
+    slidesToShow: 3,
+    speed: 500,
+  };
+
+  return (
+    <div>
+      <div className="lg:container mx-auto">
+        <SectionTitle title="Top Categories" mb="mb-11" />
+
+        <div className="slider-categories-container w-full h-full">
+          <Slider {...settings}>
+            {categories?.map((category, index) => (
+              <div key={index} className="p-4 h-[400px]">
+                <div className="categories-image mb-4 relative">
+                  <img
+                    className="w-full h-[400px] object-cover rounded-lg"
+                    src={category?.image}
+                    alt={category?.title}
+                  />
+                  <div className="absolute bottom-0 left-0 w-full h-[70px] bg-[#272343]  bg-opacity-50 flex flex-col justify-center p-4">
+                    <h4 className="text-xl text-white font-semibold font-inter mb-1 capitalize">
+                      {category?.title}
+                    </h4>
+                    <p className="text-sm text-white capitalize fotn-normal font-inter mb-2">
+                      {category?.products}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Categories;

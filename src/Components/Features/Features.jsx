@@ -70,6 +70,7 @@ const Features = () => {
                       </button>
                     </div>
                   )}
+                  
                   <div className="feature-content">
                     <div className="flex items-center justify-between pt-4">
                       <h4 className="text-base text-[#007580] font-inter font-normal capitalize mb-2">

@@ -33,13 +33,23 @@
   z-index: -1;
 }
 
-/* Buttons Slick Arrows Banner*/
+/* Buttons Slick Arrows */
 .slick-prev {
   left: -55px !important;
+  opacity: 0.75 !important;
+}
+.slick-prev:hover:before {
+  opacity: 1 !important;
 }
 .slick-next {
   right: -45px !important;
+  opacity: 0.75 !important;
 }
+.slick-next:hover:before {
+  opacity: 1 !important;
+}
+
+/* Buttons Slick Arrows Banner*/
 .slider-banner-container > .slick-slider > .slick-dots {
   position: absolute;
   bottom: 45px !important;
@@ -50,12 +60,19 @@
   list-style: none;
   text-align: center;
 }
-.slider-banner-container > .slick-slider > .slick-prev:before,
-.slick-next:before {
+.slider-banner-container > .slick-slider > .slick-prev:before {
   font-family: "slick";
   font-size: 35px !important;
   line-height: 1;
-  opacity: 0.75;
+  color: #029fae !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slider-banner-container > .slick-slider > .slick-next:before {
+  font-family: "slick";
+  font-size: 35px !important;
+  line-height: 1;
   color: #029fae !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -71,8 +88,7 @@
   height: 20px;
   content: "•";
   text-align: center;
-  opacity: 0.25;
-  color: black;
+  opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -97,6 +113,7 @@
   > .slick-dots
   > li.slick-active
   button:before {
+  opacity: 0.5 !important;
   color: #029fae !important;
 }
 
@@ -123,7 +140,18 @@
   font-family: "slick";
   font-size: 35px !important;
   line-height: 1;
-  opacity: 0.75;
   color: #029fae !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+/* Button Slick Arrows Categories */
+.slider-categories-container > .slick-slider > .slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 35px !important;
+  line-height: 1;
+  color: #029fae !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
