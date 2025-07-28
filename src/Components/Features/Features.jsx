@@ -4,44 +4,50 @@ import "slick-carousel/slick/slick-theme.css";
 
 import SectionTitle from "../SectionTitle/SectionTitle";
 import { ShoppingCart } from "lucide-react";
+import product1 from "../../../src/assets/Features/product1.png";
+import product2 from "../../../src/assets/Features/product2.png";
+import product3 from "../../../src/assets/Features/product3.png";
+import product4 from "../../../src/assets/Features/product4.png";
+import product5 from "../../../src/assets/Features/product5.png";
+import product6 from "../../../src/assets/Features/product6.png";
 
 const Features = () => {
   const features = [
     {
       title: "Sofa",
       price: "$200",
-      image: "../../../public/Features/product1.png",
+      image: product1,
     },
     {
       title: "Swivel Chair",
       status: "New",
       price: "$190",
-      image: "../../../public/Features/product2.png",
+      image: product2,
     },
     {
       title: "Chair",
       status: "Sales",
       price: "$175",
-      image: "../../../public/Features/product3.png",
+      image: product3,
       originalPrice: "$225",
     },
     {
       title: "Wooden Cabinet",
       status: "New",
       price: "$130",
-      image: "../../../public/Features/product4.png",
+      image: product4,
     },
     {
       title: "Woven Chair",
       status: "New",
       price: "$245",
-      image: "../../../public/Features/product5.png",
+      image: product5,
     },
     {
       title: "Armchair",
       status: "Sales",
       price: "$180",
-      image: "../../../public/Features/product5.png",
+      image: product6,
       originalPrice: "$200",
     },
   ];

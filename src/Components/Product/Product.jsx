@@ -1,6 +1,22 @@
 import { useState } from "react";
 import SectionTitle from "../SectionTitle/SectionTitle";
+
 import { ShoppingCart } from "lucide-react";
+import product1 from "../../../src/assets/Products/product1.png";
+import product2 from "../../../src/assets/Products/product2.png";
+import product3 from "../../../src/assets/Products/product3.png";
+import product4 from "../../../src/assets/Products/product4.png";
+import product5 from "../../../src/assets/Products/product5.png";
+import product6 from "../../../src/assets/Products/product6.png";
+import product7 from "../../../src/assets/Products/product7.png";
+import product8 from "../../../src/assets/Products/product8.png";
+import product9 from "../../../src/assets/Products/product9.png";
+import product10 from "../../../src/assets/Products/product10.png";
+import product11 from "../../../src/assets/Products/product11.png";
+import product12 from "../../../src/assets/Products/product12.png";
+import product13 from "../../../src/assets/Products/product13.png";
+import product14 from "../../../src/assets/Products/product14.png";
+import product15 from "../../../src/assets/Products/product15.png";
 
 const Product = () => {
   const [active, setActive] = useState({
@@ -35,14 +51,14 @@ const Product = () => {
     {
       title: "Library Stool 1",
       price: "$200",
-      image: "../../../public/Products/product1.png",
+      image: product1,
       product: "All",
     },
     {
       title: "Library Stool 2",
       status: "Sales",
       price: "$250",
-      image: "../../../public/Products/product2.png",
+      image: product2,
       originalPrice: "$300",
       product: "All",
     },
@@ -50,7 +66,7 @@ const Product = () => {
       title: "Library Stool 3",
       status: "Sales",
       price: "$139",
-      image: "../../../public/Products/product3.png",
+      image: product3,
       product: "All",
       originalPrice: "$190",
     },
@@ -58,14 +74,14 @@ const Product = () => {
       title: "Library Stool 4",
       status: "New",
       price: "$250",
-      image: "../../../public/Products/product4.png",
+      image: product4,
       product: "All",
     },
     {
       title: "Library Stool 5",
       status: "Sales",
       price: "$275",
-      image: "../../../public/Products/product5.png",
+      image: product5,
       product: "All",
       originalPrice: "$300",
     },
@@ -73,14 +89,14 @@ const Product = () => {
       title: "Library Stool 6",
       status: "New",
       price: "$190",
-      image: "../../../public/Products/product6.png",
+      image: product6,
       product: "All",
     },
     {
       title: "Library Stool 7",
       status: "Sales",
       price: "$139",
-      image: "../../../public/Products/product7.png",
+      image: product7,
       product: "All",
       originalPrice: "$150",
     },
@@ -88,7 +104,7 @@ const Product = () => {
       title: "Library Stool 8",
       status: "Sales",
       price: "$250",
-      image: "../../../public/Products/product8.png",
+      image: product8,
       product: "All",
       originalPrice: "$300",
     },
@@ -96,7 +112,7 @@ const Product = () => {
       title: "Library Stool 9",
       status: "Sales",
       price: "$175",
-      image: "../../../public/Products/product9.png",
+      image: product9,
       product: "All",
       originalPrice: "$225",
     },
@@ -104,28 +120,28 @@ const Product = () => {
       title: "Library Stool 10",
       status: "Sales",
       price: "$230",
-      image: "../../../public/Products/product10.png",
+      image: product10,
       product: "All",
       originalPrice: "$250",
     },
     {
       title: "Library Stool 11",
       price: "$130",
-      image: "../../../public/Products/product11.png",
+      image: product11,
       product: "All",
     },
     {
       title: "Library Stool 12",
       status: "New",
       price: "$245",
-      image: "../../../public/Products/product12.png",
+      image: product12,
       product: "All",
     },
     {
       title: "Library Stool 13",
       status: "Sales",
       price: "$180",
-      image: "../../../public/Products/product13.png",
+      image: product13,
       product: "All",
       originalPrice: "$200",
     },
@@ -133,27 +149,27 @@ const Product = () => {
       title: "Library Stool 14",
       status: "Sales",
       price: "$199",
-      image: "../../../public/Products/product14.png",
+      image: product14,
       product: "All",
       originalPrice: "$239",
     },
     {
       title: "Library Stool 15",
       price: "$289",
-      image: "../../../public/Products/product15.png",
+      image: product15,
       product: "All",
     },
     {
       title: "Library Stool 1",
       price: "$200",
-      image: "../../../public/Products/product1.png",
+      image: product1,
       product: "Best Seller",
     },
     {
       title: "Library Stool 2",
       status: "Sales",
       price: "$250",
-      image: "../../../public/Products/product2.png",
+      image: product2,
       originalPrice: "$300",
       product: "Best Seller",
     },
@@ -161,7 +177,7 @@ const Product = () => {
       title: "Library Stool 3",
       status: "Sales",
       price: "$139",
-      image: "../../../public/Products/product3.png",
+      image: product3,
       product: "Best Seller",
       originalPrice: "$190",
     },
@@ -169,14 +185,14 @@ const Product = () => {
       title: "Library Stool 4",
       status: "New",
       price: "$250",
-      image: "../../../public/Products/product4.png",
+      image: product4,
       product: "Best Seller",
     },
     {
       title: "Library Stool 5",
       status: "Sales",
       price: "$275",
-      image: "../../../public/Products/product5.png",
+      image: product5,
       product: "Best Seller",
       originalPrice: "$300",
     },
@@ -184,14 +200,14 @@ const Product = () => {
       title: "Library Stool 6",
       status: "New",
       price: "$190",
-      image: "../../../public/Products/product6.png",
+      image: product6,
       product: "Trending",
     },
     {
       title: "Library Stool 7",
       status: "Sales",
       price: "$139",
-      image: "../../../public/Products/product7.png",
+      image: product7,
       product: "Trending",
       originalPrice: "$150",
     },
@@ -199,7 +215,7 @@ const Product = () => {
       title: "Library Stool 8",
       status: "Sales",
       price: "$250",
-      image: "../../../public/Products/product8.png",
+      image: product8,
       product: "Trending",
       originalPrice: "$300",
     },
@@ -207,7 +223,7 @@ const Product = () => {
       title: "Library Stool 9",
       status: "Sales",
       price: "$175",
-      image: "../../../public/Products/product9.png",
+      image: product9,
       product: "Newest",
       originalPrice: "$225",
     },
@@ -215,28 +231,28 @@ const Product = () => {
       title: "Library Stool 10",
       status: "Sales",
       price: "$230",
-      image: "../../../public/Products/product10.png",
+      image: product10,
       product: "Best Seller",
       originalPrice: "$250",
     },
     {
       title: "Library Stool 11",
       price: "$130",
-      image: "../../../public/Products/product11.png",
+      image: product11,
       product: "Newest",
     },
     {
       title: "Library Stool 12",
       status: "New",
       price: "$245",
-      image: "../../../public/Products/product12.png",
+      image: product12,
       product: "Newest",
     },
     {
       title: "Library Stool 13",
       status: "Sales",
       price: "$180",
-      image: "../../../public/Products/product13.png",
+      image: product13,
       product: "Trending",
       originalPrice: "$200",
     },
@@ -244,14 +260,14 @@ const Product = () => {
       title: "Library Stool 14",
       status: "Sales",
       price: "$199",
-      image: "../../../public/Products/product14.png",
+      image: product14,
       product: "Trending",
       originalPrice: "$239",
     },
     {
       title: "Library Stool 15",
       price: "$289",
-      image: "../../../public/Products/product15.png",
+      image: product15,
       product: "Newest",
     },
   ];

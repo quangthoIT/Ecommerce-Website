@@ -2,6 +2,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { MoveRight } from "lucide-react";
+import Banner_Chair from "../../../src/assets/Banners/Banner_Chair.png";
+import Banner_Cabinet from "../../../src/assets/Banners/Banner_Cabinet.png";
+import Banner_Sofa from "../../../src/assets/Banners/Banner_Sofa.png";
+import Banner_Chair_Isolated from "../../../src/assets/Banners/Banner_Chair_Isolated.png";
 
 const Banner = () => {
   const products = [
@@ -9,25 +13,25 @@ const Banner = () => {
       id: 1,
       title: "Best Furniture collection for your interior",
       subTitle: "Welcome to chair",
-      image: `Banners/Banner_Chair.png`,
+      image: Banner_Chair,
     },
     {
       id: 2,
       title: "Best Furniture collection for your interior",
       subTitle: "Welcome to cabinet",
-      image: "Banners/Banner_Cabinet.png",
+      image: Banner_Cabinet,
     },
     {
       id: 3,
       title: "Best Furniture collection for your interior",
       subTitle: "Welcome to sofa",
-      image: "/Banners/Banner_Sofa.png",
+      image: Banner_Sofa,
     },
     {
       id: 4,
       title: "Best Furniture collection for your interior",
       subTitle: "Welcome to chairs isolated",
-      image: "Banners/Banner_Chair_Isolated.png",
+      image: Banner_Chair_Isolated,
     },
   ];
 

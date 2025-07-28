@@ -3,34 +3,38 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import SectionTitle from "../SectionTitle/SectionTitle";
-import { ShoppingCart } from "lucide-react";
+import categories1 from "../../../src/assets/Categories/categories1.png";
+import categories2 from "../../../src/assets/Categories/categories2.png";
+import categories3 from "../../../src/assets/Categories/categories3.png";
+import categories4 from "../../../src/assets/Categories/categories4.png";
+import categories5 from "../../../src/assets/Categories/categories5.png";
 
 const Categories = () => {
   const categories = [
     {
       title: "Chair",
       products: "275 Products",
-      image: "../../../public/Categories/categories1.png",
+      image: categories1,
     },
     {
       title: "Wooden Cabinet",
       products: "148 Products",
-      image: "../../../public/Categories/categories2.png",
+      image: categories2,
     },
     {
       title: "Sofa",
       products: "296 Products",
-      image: "../../../public/Categories/categories3.png",
+      image: categories3,
     },
     {
       title: "Woven Chair",
       products: "304 Products",
-      image: "../../../public/Categories/categories4.png",
+      image: categories4,
     },
     {
       title: "Sofa Set",
       products: "181 Products",
-      image: "../../../public/Categories/categories5.png",
+      image: categories5,
     },
   ];
 
