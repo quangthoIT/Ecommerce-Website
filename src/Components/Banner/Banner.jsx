@@ -9,25 +9,25 @@ const Banner = () => {
       id: 1,
       title: "Best Furniture collection for your interior",
       subTitle: "Welcome to chair",
-      image: `../../../public/Banners/Banner_Chair.png`,
+      image: `Banners/Banner_Chair.png`,
     },
     {
       id: 2,
       title: "Best Furniture collection for your interior",
       subTitle: "Welcome to cabinet",
-      image: `../../../public/Banners/Banner_Cabinet.png`,
+      image: "Banners/Banner_Cabinet.png",
     },
     {
       id: 3,
       title: "Best Furniture collection for your interior",
       subTitle: "Welcome to sofa",
-      image: `../../../public/Banners/Banner_Sofa.png`,
+      image: "/Banners/Banner_Sofa.png",
     },
     {
       id: 4,
       title: "Best Furniture collection for your interior",
       subTitle: "Welcome to chairs isolated",
-      image: `../../../public/Banners/Banner_Chair_Isolated.png`,
+      image: "Banners/Banner_Chair_Isolated.png",
     },
   ];
 
@@ -39,7 +39,7 @@ const Banner = () => {
     autoplay: true,
     speed: 1000,
     autoplaySpeed: 4000,
-    cssEase: "linear"
+    cssEase: "linear",
   };
 
   return (
