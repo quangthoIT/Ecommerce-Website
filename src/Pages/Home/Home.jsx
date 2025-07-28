@@ -6,6 +6,7 @@ import Delivery from "../../Components/Delivery/Delivery";
 import Brand from "../../Components/Brand/Brand";
 import Features from "../../Components/Features/Features";
 import Categories from "../../Components/Categories/Categories";
+import Product from "../../Components/Product/Product";
 
 const Home = () => {
   return (
@@ -34,6 +35,11 @@ const Home = () => {
       <div className="categories-component w-full flex items-center justify-center mb-[40px]">
         {/* Placeholder for Categories component */}
         <Categories />
+      </div>
+
+      {/* Product Component */}
+      <div className="product-component w-full flex items-center justify-center pb-8">
+        <Product />
       </div>
     </div>
   );

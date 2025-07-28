@@ -8,19 +8,29 @@ import { ShoppingCart } from "lucide-react";
 const Categories = () => {
   const categories = [
     {
-      title: "Wing Chair",
-      products: "173 Products",
+      title: "Chair",
+      products: "275 Products",
       image: "/src/assets/Categories/categories1.png",
     },
     {
-      title: "Wooden Chair",
+      title: "Wooden Cabinet",
       products: "148 Products",
       image: "/src/assets/Categories/categories2.png",
     },
     {
-      title: "Desk Chair",
+      title: "Sofa",
       products: "296 Products",
       image: "/src/assets/Categories/categories3.png",
+    },
+    {
+      title: "Woven Chair",
+      products: "304 Products",
+      image: "/src/assets/Categories/categories4.png",
+    },
+    {
+      title: "Sofa Set",
+      products: "181 Products",
+      image: "/src/assets/Categories/categories5.png",
     },
   ];
 

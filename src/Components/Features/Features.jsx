@@ -8,35 +8,41 @@ import { ShoppingCart } from "lucide-react";
 const Features = () => {
   const features = [
     {
-      title: "Library Stool 1",
+      title: "Sofa",
       price: "$200",
       image: "/src/assets/Features/product1.png",
     },
     {
-      title: "Library Stool 2",
-      status: "Sales",
-      price: "$250",
+      title: "Swivel Chair",
+      status: "New",
+      price: "$190",
       image: "/src/assets/Features/product2.png",
-      originalPrice: "$300",
     },
     {
-      title: "Library Stool 3",
-      status: "New",
-      price: "$200",
-      image: "/src/assets/Features/product3.png",
-    },
-    {
-      title: "Library Stool 4",
+      title: "Chair",
       status: "Sales",
-      price: "$300",
-      image: "/src/assets/Features/product4.png",
-      originalPrice: "$350",
+      price: "$175",
+      image: "/src/assets/Features/product3.png",
+      originalPrice: "$225",
     },
     {
-      title: "Library Stool 5",
+      title: "Wooden Cabinet",
       status: "New",
-      price: "$175",
+      price: "$130",
+      image: "/src/assets/Features/product4.png",
+    },
+    {
+      title: "Woven Chair",
+      status: "New",
+      price: "$245",
       image: "/src/assets/Features/product5.png",
+    },
+    {
+      title: "Armchair",
+      status: "Sales",
+      price: "$180",
+      image: "/src/assets/Features/product5.png",
+      originalPrice: "$200",
     },
   ];
 
@@ -70,7 +76,7 @@ const Features = () => {
                       </button>
                     </div>
                   )}
-                  
+
                   <div className="feature-content">
                     <div className="flex items-center justify-between pt-4">
                       <h4 className="text-base text-[#007580] font-inter font-normal capitalize mb-2">
