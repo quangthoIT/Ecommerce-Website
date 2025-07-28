@@ -1,32 +1,39 @@
+import Brand1 from "../../../src/assets/Brands/Brand1.png";
+import Brand2 from "../../../src/assets/Brands/Brand2.png";
+import Brand3 from "../../../src/assets/Brands/Brand3.png";
+import Brand4 from "../../../src/assets/Brands/Brand4.png";
+import Brand5 from "../../../src/assets/Brands/Brand5.png";
+import Brand6 from "../../../src/assets/Brands/Brand6.png";
+import Brand7 from "../../../src/assets/Brands/Brand7.png";
 const Brand = () => {
   const brands = [
     {
       id: 1,
-      image: "../../../public/Brands/Brand1.png",
+      image: Brand1,
     },
     {
       id: 2,
-      image: "../../../public/Brands/Brand2.png",
+      image: Brand2,
     },
     {
       id: 3,
-      image: "../../../public/Brands/Brand3.png",
+      image: Brand3,
     },
     {
       id: 4,
-      image: "../../../public/Brands/Brand4.png",
+      image: Brand4,
     },
     {
       id: 5,
-      image: "../../../public/Brands/Brand5.png",
+      image: Brand5,
     },
     {
       id: 6,
-      image: "../../../public/Brands/Brand6.png",
+      image: Brand6,
     },
     {
       id: 7,
-      image: "../../../public/Brands/Brand7.png",
+      image: Brand7,
     },
   ];
 
