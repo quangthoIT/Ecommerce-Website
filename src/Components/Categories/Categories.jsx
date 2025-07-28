@@ -10,27 +10,27 @@ const Categories = () => {
     {
       title: "Chair",
       products: "275 Products",
-      image: "../../../src/assets/Categories/categories1.png",
+      image: "../../../public/Categories/categories1.png",
     },
     {
       title: "Wooden Cabinet",
       products: "148 Products",
-      image: "../../../src/assets/Categories/categories2.png",
+      image: "../../../public/Categories/categories2.png",
     },
     {
       title: "Sofa",
       products: "296 Products",
-      image: "../../../src/assets/Categories/categories3.png",
+      image: "../../../public/Categories/categories3.png",
     },
     {
       title: "Woven Chair",
       products: "304 Products",
-      image: "../../../src/assets/Categories/categories4.png",
+      image: "../../../public/Categories/categories4.png",
     },
     {
       title: "Sofa Set",
       products: "181 Products",
-      image: "../../../src/assets/Categories/categories5.png",
+      image: "../../../public/Categories/categories5.png",
     },
   ];
 

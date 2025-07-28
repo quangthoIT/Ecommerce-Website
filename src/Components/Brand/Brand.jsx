@@ -2,31 +2,31 @@ const Brand = () => {
   const brands = [
     {
       id: 1,
-      image: "../../../src/assets/Brands/Brand1.png",
+      image: "../../../public/Brands/Brand1.png",
     },
     {
       id: 2,
-      image: "../../../src/assets/Brands/Brand2.png",
+      image: "../../../public/Brands/Brand2.png",
     },
     {
       id: 3,
-      image: "../../../src/assets/Brands/Brand3.png",
+      image: "../../../public/Brands/Brand3.png",
     },
     {
       id: 4,
-      image: "../../../src/assets/Brands/Brand4.png",
+      image: "../../../public/Brands/Brand4.png",
     },
     {
       id: 5,
-      image: "../../../src/assets/Brands/Brand5.png",
+      image: "../../../public/Brands/Brand5.png",
     },
     {
       id: 6,
-      image: "../../../src/assets/Brands/Brand6.png",
+      image: "../../../public/Brands/Brand6.png",
     },
     {
       id: 7,
-      image: "../../../src/assets/Brands/Brand7.png",
+      image: "../../../public/Brands/Brand7.png",
     },
   ];
 
