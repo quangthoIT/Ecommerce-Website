@@ -7,6 +7,7 @@ import Brand from "../../Components/Brand/Brand";
 import Features from "../../Components/Features/Features";
 import Categories from "../../Components/Categories/Categories";
 import Product from "../../Components/Product/Product";
+import Client from "../../Components/Client/Client";
 
 const Home = () => {
   return (
@@ -38,12 +39,16 @@ const Home = () => {
       </div>
 
       {/* Product Component */}
-      <div className="product-component w-full flex items-center justify-center pb-8">
+      <div className="product-component w-full flex items-center justify-center mb-8">
         <Product />
+      </div>
+
+      {/* Client Say Component */}
+      <div className="client-component w-full min-h-[540px] flex items-center justify-center bg-[#f0f2f3] ">
+        <Client />
       </div>
     </div>
   );
 };
 
 export default Home;
-// 46:00

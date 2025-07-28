@@ -155,3 +155,31 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Button Slick Arrows Clients */
+.slider-clients-container > .slick-slider > .slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 35px !important;
+  line-height: 1;
+  color: #029fae !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.client-say{
+  position: relative;
+}
+.client-say::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -5px;
+  width: 3px;
+  height: 100%;
+  background-color: #007580;
+  opacity: 0.75;
+}
+.client-slider .slick-slide > div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
