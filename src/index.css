@@ -183,3 +183,14 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+
+/* Button Slick Arrows Recent */
+.slider-recent-container > .slick-slider > .slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 35px !important;
+  line-height: 1;
+  color: #029fae !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
