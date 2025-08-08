@@ -9,6 +9,7 @@ import Categories from "../../Components/Categories/Categories";
 import Product from "../../Components/Product/Product";
 import Client from "../../Components/Client/Client";
 import Recent from "../../Components/Recent/Recent";
+import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -52,6 +53,11 @@ const Home = () => {
       {/* Recent Component */}
       <div className="recent-component w-full flex items-center pt-[60px] pb-[60px] justify-center">
         <Recent />
+      </div>
+
+      {/* Footer Component */}
+      <div className="recent-component w-full ">
+        <Footer />
       </div>
     </div>
   );
