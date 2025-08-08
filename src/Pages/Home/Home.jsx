@@ -55,10 +55,6 @@ const Home = () => {
         <Recent />
       </div>
 
-      {/* Footer Component */}
-      <div className="recent-component w-full ">
-        <Footer />
-      </div>
     </div>
   );
 };

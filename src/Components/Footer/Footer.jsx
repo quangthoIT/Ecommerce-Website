@@ -12,7 +12,7 @@ import { Link } from "react-router";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-top mx-h-[340px] w-full border-t border-b border-[#e1e3e5] pt-[60px] pb-[60px]">
+      <div className="footer-top mx-h-[340px] w-full border-t border-b border-[#e1e3e5] pt-[40px] pb-[40px]">
         <div className="lg:container mx-auto">
           <div className="grid grid-cols-4 gap-x-8">
             <div>
@@ -123,11 +123,11 @@ const Footer = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              <p className="flex items-center gap-1 text-xl text-[#9a9caa] font-inter font-narmal">
+              <p className="flex items-center gap-1 text-base text-[#9a9caa] font-inter font-narmal">
                 Credit Card
                 <CreditCard size="2rem" />
               </p>
-              <p className="flex items-center gap-1 text-xl text-[#9a9caa] font-inter font-narmal">
+              <p className="flex items-center gap-1 text-base text-[#9a9caa] font-inter font-narmal">
                 Bank Note
                 <Banknote size="2.3rem" />
               </p>
