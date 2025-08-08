@@ -34,7 +34,7 @@ const Register = () => {
           />
           <button
             type="submit"
-            className="w-full h-[50px] bg-[#007580] rounded-md mb-4 pl-4 text-white text-base font-semibold font-inter cursor-pointer"
+            className="w-full h-[50px] bg-[#007580] rounded-md mb-4 pl-4 text-white text-base font-semibold font-inter cursor-pointer hover:bg-[#005f66] transition"
           >
             Register
           </button>

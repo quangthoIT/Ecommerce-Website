@@ -103,7 +103,7 @@ const Footer = () => {
                 />
                 <button
                   type="submit"
-                  className="text-base text-white font-semibold capitalize w-[120px] h-[40px] bg-[#007580] rounded-lg cursor-pointer"
+                  className="text-base text-white font-semibold capitalize w-[120px] h-[40px] bg-[#007580] rounded-lg cursor-pointer hover:bg-[#005f66] transition"
                 >
                   Subscribe
                 </button>
