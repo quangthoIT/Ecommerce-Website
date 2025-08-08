@@ -78,16 +78,16 @@ const Footer = () => {
               </h3>
 
               <div className="footer-social flex items-center gap-4 mt-3">
-                <Link className="p-2 rounded-full border-[#007580] inline-block border-[1px]">
+                <Link className="w-10 h-10 p-2 rounded-full border-[#007580] inline-block border-[1px] hover:scale-110 transition duration-300">
                   <Facebook size="1.5rem" color="#007580" />
                 </Link>
-                <Link className="p-2 rounded-full border-[#007580] inline-block border-[1px]">
+                <Link className="w-10 h-10 p-2 rounded-full border-[#007580] inline-block border-[1px] hover:scale-110 transition duration-300">
                   <Twitter size="1.5rem" color="#007580" />
                 </Link>
-                <Link className="p-2 rounded-full border-[#007580] inline-block border-[1px]">
+                <Link className="w-10 h-10 p-2 rounded-full border-[#007580] inline-block border-[1px] hover:scale-110 transition duration-300">
                   <Linkedin size="1.5rem" color="#007580" />
                 </Link>
-                <Link className="p-2 rounded-full border-[#007580] inline-block border-[1px]">
+                <Link className="w-10 h-10 p-2 rounded-full border-[#007580] inline-block border-[1px] hover:scale-110 transition duration-300">
                   <Instagram size="1.5rem" color="#007580" />
                 </Link>
               </div>

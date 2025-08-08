@@ -321,7 +321,7 @@ const Product = () => {
                     {product?.title}
                   </h4>
                   <span className="bg-[#007580] h-[44px] w-[44px] text-white rounded-lg flex items-center justify-center">
-                    <ShoppingCart />
+                    <ShoppingCart className="transition duration-300 transform hover:scale-110"/>
                   </span>
                 </div>
                 <p className="text-xl text-[#272343] font-inter font-semibold flex items-center gap-2">
