@@ -48,7 +48,7 @@ const Banner = () => {
 
   return (
     <div className="lg:container">
-      <div className="slider-banner-container w-full h-full px-5">
+      <div className="slider-banner-container w-full h-full px-10">
         <Slider {...settings}>
           {products?.map((product) => (
             <div key={product?.id} className="banner-slide-items">
