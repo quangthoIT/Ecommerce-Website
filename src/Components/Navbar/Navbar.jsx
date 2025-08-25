@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div>
       {/* Navbar Top */}
-      <div className="navbar-top flex items-center justify-center bg-[#272343] h-[45px] w-full">
+      <div className="navbar-top flex items-center justify-center bg-[#272343] h-[45px] w-full px-5">
         <div className="lg:container flex justify-between items-center">
           <p className="flex items-center gap-2 text-sm font-inter font-normal text-white capitalize">
             <Check /> Free on all orders over $50
