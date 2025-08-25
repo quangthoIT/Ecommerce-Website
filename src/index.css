@@ -9,6 +9,14 @@
   --font-inter: "Inter", sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
 .banner-slide-items {
   display: flex !important;
   justify-content: space-between;

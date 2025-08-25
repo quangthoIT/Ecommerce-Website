@@ -82,10 +82,10 @@ const Footer = () => {
                   <Facebook size="1.5rem" color="#007580" />
                 </Link>
                 <Link className="w-10 h-10 p-2 rounded-full border-[#007580] inline-block border-[1px] hover:scale-110 transition duration-300">
-                  <Twitter size="1.5rem" color="#007580" />
+                  <Linkedin size="1.5rem" color="#007580" />
                 </Link>
                 <Link className="w-10 h-10 p-2 rounded-full border-[#007580] inline-block border-[1px] hover:scale-110 transition duration-300">
-                  <Linkedin size="1.5rem" color="#007580" />
+                  <Twitter size="1.5rem" color="#007580" />
                 </Link>
                 <Link className="w-10 h-10 p-2 rounded-full border-[#007580] inline-block border-[1px] hover:scale-110 transition duration-300">
                   <Instagram size="1.5rem" color="#007580" />

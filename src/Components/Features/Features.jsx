@@ -88,8 +88,8 @@ const Features = () => {
                       <h4 className="text-base text-[#007580] font-inter font-normal capitalize mb-2">
                         {feature?.title}
                       </h4>
-                      <span className="bg-[#007580] h-[44px] w-[44px]  text-white rounded-lg flex items-center justify-center cursor-pointer ">
-                        <ShoppingCart className="transition duration-300 transform hover:scale-110"/>
+                      <span className="bg-[#007580] h-[44px] w-[44px]  text-white rounded-lg flex items-center justify-center cursor-pointer">
+                        <ShoppingCart className="transition duration-300 transform hover:scale-110" />
                       </span>
                     </div>
                     <p className="text-xl text-[#272343] font-inter font-semibold flex items-center gap-2">
